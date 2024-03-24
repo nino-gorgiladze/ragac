@@ -1,0 +1,167 @@
+/* ერთ-ერთ ფიგმას ფაილს რესპონსივები გაერილი აქვს */
+/* 1024, 744, 375 */
+/* ჩვენ გასაწერი გვაქვს 320-მდე */
+
+
+
+
+
+
+/* 1024 an naklebiooo */
+@media (max-width: 1024px) {
+  .div-charcho {
+    align-items: center;
+    width: 800px;
+  }
+
+  .klub-section {
+    width: 95%;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+
+  /* moswavleebis */
+
+  .div-9kl {
+    flex-direction: column;
+  }
+
+  .video {
+    align-items: center;
+  }
+
+  .div-9kl-description {
+    width: 630px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .div1-1-last {
+    width: 630px;
+    align-items: center;
+    text-align: center;
+    padding: 0px 70px;
+    margin-bottom: 68px;
+  }
+
+  .div1-p1 {
+    width: 370px;
+    text-align: center;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 870px) {
+  .navigation {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+      }
+  .header {padding: 10px;}
+
+  .off-menu {
+    background-color: rgb(221, 164, 20);
+    opacity: 1;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ease;
+    margin-top: 150px;
+    border-radius: 10px;
+    line-height: 2;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 20px;
+    color: black;
+
+  }
+}
+
+
+
+
+@media (max-width: 500px) {
+  .top-header {
+    height: 40px;
+    justify-content: flex-end;
+  }
+
+  .top-header-text {
+    font-size: 16px;
+  }
+
+  .search-div {
+    display: none;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .school-name {
+    font-size: 24px;
+  }
+}
+
+
+
+
+@media (max-width: 340px) {
+  .top-header {
+    height: 40px;
+    justify-content: flex-end;
+  }
+
+  .top-header-text {
+    font-size: 11px;
+  }
+
+  .search-div {
+    display: none;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .school-name {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {font-size: 11px}
+}
